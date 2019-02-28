@@ -1,0 +1,31 @@
+3 steps:
+	1. add
+	2. commit
+	3. push
+	
+
+Make sure in the right folder
+git init
+git remote add origin <url of git repository>
+git remote -v
+git status	# shows files in red
+git add .
+git status	# shows files in green
+git commit -m "Initial commit"
+# if you get an error asking you to identify yourself
+git config --global user.email "ajay.singala@gmail.com"
+git config --global user.name "ajaysingala"
+# then try git commit again
+git commit -m "Initial commit"
+git status
+# push files to remote repository
+git push origin master
+
+# Make changes and push to remote repo
+# Edit a file and save it
+git status	# shows in red as modified
+git add .
+git status	# shows in green
+git commit -m "any message"
+git status	# nothing
+git push origin master
