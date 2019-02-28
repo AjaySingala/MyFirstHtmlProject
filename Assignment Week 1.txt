@@ -1,0 +1,39 @@
+A web site with navigation
+A registration page
+	Username*
+	Password*
+	Firstname*
+	Lastname*
+	Address
+	City*
+	State*
+	Zipcode*
+	Email Address*
+	DOB*
+	Marital Status (Married, Single, Divorced, Separated)
+	Profession (Student, Full-time Employment, Professional, Self-employed)
+	Own which of these? (Mobile, tablet, desktop, laptop)
+	Submit and Reset buttons
+Login Page:
+	Username*
+	Password*
+	Sign in and Cancel Buttons
+	Sign up link / button
+Display user profile page
+	non-editable fields
+Purchase a product:
+	Show a list of categories
+	Select a category from the list
+	Show a list of products
+	Select a product from the list
+	Image of a product
+	Enter quantity*
+	Enter price*
+Display list of products page
+	Product name
+	Product description
+	Unit Price
+	Instock (yes / no)
+	Image of the product
+
+	
