@@ -1,0 +1,26 @@
+div {
+    font-family: 'Times New Roman', Times, serif;
+    color: yellow
+
+}
+#test.testClass {
+    color: green;
+    background-color: red;
+}
+#square {
+    width: 200px;
+    height: 200px;
+    background: blue;
+}
+#circle {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    border-radius: 50%;
+}
+#triangle-topleft {
+    width: 0;
+    height: 0;
+    border-top: 200px solid blue;
+    border-right: 200px solid transparent;
+}
