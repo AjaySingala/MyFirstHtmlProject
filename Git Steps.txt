@@ -29,3 +29,13 @@ git status	# shows in green
 git commit -m "any message"
 git status	# nothing
 git push origin master
+
+#Cloning a repository
+#create a new folder in a new location (not under an existing "git" folder/repo)
+mkdir <new folder name>
+cd <new folder name>
+#Copy the git repo's url
+git clone https://github.com/AjaySingala/MyFirstHtmlProject.git
+
+
+
