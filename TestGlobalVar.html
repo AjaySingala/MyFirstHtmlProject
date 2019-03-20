@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<title>About Page</title>
+		<div>
+			<p>This is a para in the head</p>
+			<div>
+				<table>
+					<tr>
+						<td>one</td>
+						<td>two</td>
+					</tr>
+					<tr>
+						<td>tri</td>
+						<td>for</td>
+					</tr>
+				</table>
+			<div>
+			
+		</div>
+		<script>
+			document.bgColor = "cyan";
+			alert("true" == true);
+			function a() {
+				var x = 2;
+				alert("Scope a = " + x);
+				b();
+			}
+			function b() {
+				var x;
+				alert("Scope b = " + x);
+			}
+			
+			var x = 1;
+			alert("Global scope x = " + x);
+			a();
+			alert("Global scope of x after calling a() = " + x);
+		</script>
+	</head>
+	<body>
+
+	</body>
+	
+</html>
