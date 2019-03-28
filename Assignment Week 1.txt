@@ -1,34 +1,35 @@
 A web site with navigation
 A registration page
-	Username*
-	Password*
-	Firstname*
-	Lastname*
+	Username* 	(minimum 5 chars, max 25 chars)
+	Password*	(minimum 5 chars, max 13 chars)
+	Firstname*	(minimum 5 chars, max 25 chars)
+	Lastname*	(minimum 5 chars, max 25 chars)
 	Address
-	City*
-	State*
-	Zipcode*
+	City*		(max 20 chars)
+	State*		(max 2 chars)
+	Zipcode*	(max 5 chars)
 	Email Address*
 	DOB*
 	Marital Status (Married, Single, Divorced, Separated)
 	Profession (Student, Full-time Employment, Professional, Self-employed)
 	Own which of these? (Mobile, tablet, desktop, laptop)
-	Submit and Reset buttons
+	Submit and Reset buttons (on click of submit, go to user product list page)
 Login Page:
 	Username*
 	Password*
 	Sign in and Cancel Buttons
-	Sign up link / button
+	Sign up link
+	on click of Sign-in button, show user profile page
+	On click of sign-up, go to Registration page
 Display user profile page
-	non-editable fields
+	non-editable fields from registration page
 Purchase a product:
 	Show a list of categories
 	Select a category from the list
 	Show a list of products
 	Select a product from the list
-	Image of a product
-	Enter quantity*
-	Enter price*
+	Enter quantity* (must be between 1 and 10)
+	Enter price* (must be between 1 and 100)
 Display list of products page
 	Product name
 	Product description

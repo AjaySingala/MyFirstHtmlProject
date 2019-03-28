@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        /* unvisited link */
+        a:link {
+            color: black;
+        }
+
+        /* visited link */
+        a:visited {
+            color: darkmagenta;
+        }
+
+        /* hover link */
+        a:hover {
+            color: darkorchid;
+        }
+
+        /* active link */
+        a:active {
+            color: red;
+        }
+
+        label {    
+            text-decoration-line: line-through;    /*underline ,overline, line-through */
+        }
+
+        p.uppercase {
+            text-transform: uppercase
+        }
+        p.lowercase {
+            text-transform: lowercase
+        }
+        p.capitalize {
+            text-transform: capitalize
+        }
+    </style>
+</head>
+
+<body>
+    <a href="home.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+
+    <div>
+        <label>Firstname</label>
+    </div>
+    <div>
+        <p class="uppercase">this should be all caps</p>
+        <p class="lowercase">THIS SHOULD BE ALL LOWER CASE</p>
+        <p class="capitalize">this should be capitalized</p>
+    </div>
+</body>
+
+</html>
