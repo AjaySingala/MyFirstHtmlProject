@@ -1,9 +1,10 @@
+A menu to navigate to all the pages
 A web site with navigation
 A registration page
 	Username* 	(minimum 5 chars, max 25 chars)
 	Password*	(minimum 5 chars, max 13 chars)
-	Firstname*	(minimum 5 chars, max 25 chars)
-	Lastname*	(minimum 5 chars, max 25 chars)
+	Firstname*	(max 25 chars)
+	Lastname*	(max 25 chars)
 	Address
 	City*		(max 20 chars)
 	State*		(max 2 chars)
